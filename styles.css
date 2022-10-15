@@ -32,9 +32,6 @@
 .line:nth-of-type(6) {
   transform: rotate(300deg);
 }
-
-/*I set the .cabin to have a transform-origin property of 50% 0%. This will set the origin point to be offset 50% from the left and 0% from the top, placing it in the middle of the top edge of the element.*/
-
 .cabin {
   background-color: red;
   width: 20%;
