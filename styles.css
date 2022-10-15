@@ -40,3 +40,10 @@
   border: 2px solid;
   transform-origin: 50% 0%;
 }
+
+/*Time to position the cabins around the wheel. I selected the first .cabin element, and set the right property to -8.5% & the top property to 50%*/
+
+.cabin:nth-of-type(1) {
+  right: -8.5%;
+  top: 50%;
+}
