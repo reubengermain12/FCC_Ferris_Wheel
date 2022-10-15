@@ -64,5 +64,19 @@
   right: 17%;
   top: 7%;
 }
+
+/*I now need to define how my animation should start. To do this, I must create a 0% rule within your @keyframes wheel rule. The properties I set in this nested selector will apply at the beginning of my animation.
+
+As an example, this would be a 12% rule:
+
+@keyframes freecodecamp {
+  12% {
+    color: green;
+  }
+}
+*/
+
 @keyframes wheel {
+  0% {
+  }
 }
