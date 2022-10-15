@@ -17,11 +17,6 @@
   top: 50%;
   transform-origin: 0% 0%;
 }
-
-/*I created a selector to target my second .line element, and set the transform property to rotate(60deg).
-
-Remember that the transform property allows me to manipulate the shape of an element. In this case, using the rotate(60deg) value will rotate the element around its transform-origin point by 60 degrees clockwise.*/
-
 .line:nth-of-type(2) {
   transform: rotate(60deg);
 }
