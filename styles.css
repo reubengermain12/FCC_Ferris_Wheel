@@ -1,3 +1,7 @@
+/*The animation-name property is used to link a @keyframes rule to a CSS selector. The value of this property should match the name of the @keyframes rule. Give your .wheel selector an animation-name property set to wheel.
+
+The animation-duration property is used to set how long the animation should sequence to complete. The time should be specified in either seconds (s) or milliseconds (ms). I have set the .wheel selector to have an animation-duration property of 10s.*/
+
 .wheel {
   border: 2px solid black;
   border-radius: 50%;
@@ -7,6 +11,8 @@
   width: 55vw;
   max-height: 500px;
   max-width: 500px;
+  animation-name: wheel;
+  animation-duration: 10s;
 }
 .line {
   background-color: black;
