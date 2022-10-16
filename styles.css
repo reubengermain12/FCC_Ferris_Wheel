@@ -36,11 +36,6 @@
 .line:nth-of-type(6) {
   transform: rotate(300deg);
 }
-
-/*To make my cabin animation seem more like a natural swinging motion, I can use the ease-in-out timing function. This setting will tell the animation to start and end at a slower pace, but move more quickly in the middle of the cycle.
-
-So I replaced linear to ease-in-out in the .cabin selector.*/
-
 .cabin {
   background-color: red;
   width: 20%;
